@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Applications - Metro District Legacy</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">Metro District Legacy</div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="howtoplay.html">How to Play</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="codes.html">Codes</a>
+        <a href="contact.html">Contact</a>
+        <a href="applications.html">Applications</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="container" style="padding: 60px 0;">
+    <h1>Apply to Join Metro District Legacy Team</h1>
+    <p style="margin-top: 20px; max-width: 700px;">
+      We're looking for dedicated and passionate individuals to join our team! Fill out the form below to apply for staff, developer, or community roles.
+    </p>
+    <form action="https://formsubmit.co/olisaenebeliuzor@gmail.com" method="POST" style="margin-top: 40px; max-width: 600px;">
+      <!-- Avoid spam -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="box">
+      <input type="hidden" name="_subject" value="New Application from Metro District Legacy">
+
+      <div style="margin-bottom: 20px;">
+        <label for="name">Full Name</label><br>
+        <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; border: 1px solid #ccc;">
+      </div>
+      <div style="margin-bottom: 20px;">
+        <label for="email">Email Address</label><br>
+        <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; border: 1px solid #ccc;">
+      </div>
+      <div style="margin-bottom: 20px;">
+        <label for="role">Role Applying For</label><br>
+        <select id="role" name="role" required style="width: 100%; padding: 10px; border: 1px solid #ccc;">
+          <option value="Staff">Staff</option>
+          <option value="Developer">Developer</option>
+          <option value="Moderator">Moderator</option>
+          <option value="Builder">Builder</option>
+          <option value="Scripter">Scripter</option>
+          <option value="Tester">Tester</option>
+          <option value="UI Designer">UI Designer</option>
+          <option value="Animator">Animator</option>
+          <option value="3D Modeler">3D Modeler</option>
+          <option value="Graphic Designer">Graphic Designer</option>
+          <option value="Marketing">Marketing</option>
+        </select>
+      </div>
+      <div style="margin-bottom: 20px;">
+        <label for="message">Why do you want to join?</label><br>
+        <textarea id="message" name="message" rows="5" required style="width: 100%; padding: 10px; border: 1px solid #ccc;"></textarea>
+      </div>
+      <button class="button-primary" type="submit">Submit Application</button>
+    </form>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Metro District Legacy. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
